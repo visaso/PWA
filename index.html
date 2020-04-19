@@ -17,21 +17,23 @@
 <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
 <body class="fullscreen">
-    <div class="container">
-      <h1 class="title">Hello World!</h1>
-      <i class="fas fa-angry"></i>
-      <i class="fas fa-cubes"></i>
-      <img src="./images/hello-icon-144.png">
-      <div style="border: 1px; border-color: black; padding: 15px;">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
-
-      
+  <script src="./js/fetchGQL.js"></script>
+  <script src="./js/idb.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/main.js"></script>
+  <div class="container">
+    <h1 class="title">Hello World!</h1>
+    <form>
+      <input type="text" name="greeting" placeholder="type greeting">
+      <button type="submit">Send</button>
+    </form>
+    <div class="greetings">
+      <button id="refresh">Refresh</button>
+      <ul></ul>
     </div>
+  </div>
 
-    <script src="./js/fetchGQL.js"></script>
-    <script src="./js/idb.js"></script>
-    <script src="./js/main.js"></script>
-    </body>
+  </body>
+  
     
 </html>
