@@ -1,5 +1,9 @@
+
 body {
     font-family: sans-serif;
+    background-color: lightslategray;
+    background-image: url('../images/chiken.png');
+    background-repeat: no-repeat;
   }
   
   /* Make content area fill the entire browser window */
